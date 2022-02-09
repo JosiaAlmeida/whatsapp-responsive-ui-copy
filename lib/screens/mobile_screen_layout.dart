@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsappui/Widgets/contacts_list.dart';
 import 'package:whatsappui/colors.dart';
 
 class MobileScreenLayout extends StatelessWidget {
@@ -22,13 +23,13 @@ class MobileScreenLayout extends StatelessWidget {
             actions: [
               IconButton(
                   onPressed: () {},
-                  icon: Icon(
+                  icon: const Icon(
                     Icons.search,
                     color: Colors.grey,
                   )),
               IconButton(
                   onPressed: () {},
-                  icon: Icon(
+                  icon: const Icon(
                     Icons.more_vert,
                     color: Colors.grey,
                   )),
@@ -53,7 +54,7 @@ class MobileScreenLayout extends StatelessWidget {
               ],
             ),
           ),
-          body: Text("Mobile"),
+          body: ContactsList(),
         ));
   }
 }
