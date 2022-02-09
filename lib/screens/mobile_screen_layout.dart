@@ -42,6 +42,7 @@ class MobileScreenLayout extends StatelessWidget {
               unselectedLabelColor: Colors.grey,
               labelStyle: TextStyle(fontWeight: FontWeight.bold),
               tabs: [
+                // Icon(Icons.camera_alt),
                 Tab(
                   text: "Conversas",
                 ),
